@@ -12,12 +12,24 @@ This is a comprehensive bank management system developed using Django for the ba
 
 ## Tech Stack
 
-- **Backend**: Python 3, Django, Django REST framework
-- **Frontend**: React, JavaScript, HTML5, CSS3
+- **Backend**: Python 3, Django, Bootstrap
+- **Frontend**: React, JavaScript, HTML5, CSS3, Tailwind CSS
 - **Database**: MySQL 
-- **APIs**: Django REST framework
+- **APIs**: Faker, Django REST framework
 
-## Installation
+### Faker for Placeholder Data
+
+The Faker library is used to generate realistic placeholder data for testing and development purposes. This helps simulate real-world scenarios and aids in the development and testing of your bank management system.
+
+In the `scripts/` directory, you can find scripts that utilize Faker to generate sample data. These scripts can be run to populate your database with test data, making it easier to evaluate and fine-tune your application.
+
+To use Faker for generating data, follow these steps:
+
+1. Navigate to the `scripts/` directory.
+2. Run the relevant script for the data you want to generate. For example, `python generate_customer_data.py` for creating sample customer data.
+3. Check your Django admin panel or API endpoints to see the newly generated data.
+
+Note: Remember to use this data responsibly and only for development and testing purposes.
 
 ### Backend (Django)
 
