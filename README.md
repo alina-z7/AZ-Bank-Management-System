@@ -12,8 +12,8 @@ This is a comprehensive bank management system developed using Django for the ba
 
 ## Tech Stack
 
-- **Backend**: Python 3, Django, Bootstrap
-- **Frontend**: React, JavaScript, HTML5, CSS3, Tailwind CSS
+- **Backend**: Python 3, Django
+- **Frontend**: React, JavaScript, Bootstrap, HTML5, CSS3, Tailwind CSS
 - **Database**: MySQL 
 - **APIs**: Faker, Django REST framework
 
